@@ -1,0 +1,51 @@
+.create-note {
+    padding: 15px 30px;
+}
+
+.createNoteForm {
+    position: relative;
+    width: 26rem;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138 137 137);
+    max-width: 90%;
+}
+
+.createNote{
+    height: 14rem;
+}
+
+.titleField,
+.taglineField,
+.bodyField {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 6px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.btn-active{
+    background: #0f6eff;
+}
+.btn-inactive{
+    background: #add8e6;
+}
